@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" >
+    <title></title>
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">col-md-8</div>
+        <div class="col-md-4">col-md-4</div>
+    </div>
+    <!--不堆叠-->
+    <div class="row">
+        <div class="col-xs-12 col-md-8">col-md-6</div>
+        <div class="col-xs-6 col-md-4">col-md-6</div>
+        <div class="col-xs-6 col-md-4">col-md-9</div>
+        <div class="col-xs-6 col-md-4">col-md-9</div>
+        <div class="col-xs-6 col-md-4">col-md-9</div>
+
+    </div>
+    <!--向右偏移3列-->
+    <div class="row">
+        <div class="col-md-3 col-md-offset-3">col-md-offset-3</div>
+        <div class="col-md-3 col-md-offset-3">col-md-offset-3</div>
+    </div>
+</div>
+<!--嵌套列-->
+<div class="row">
+    <div class="col-sm-9">
+        level1:col-sm-9
+        <div class="row">
+            <div class="col-xs-8 col-sm-6">
+            level2:col-xs-8
+            </div>
+            <div class="col-xs-4 col-sm-6">
+                level2:col-xs-8
+            </div>
+        </div>
+    </div>
+</div>
+    <!--列排序-->
+    <div class="row">
+        <div class="col-md-9 col-md-pull-3">col-md-9 col-md-pull-3</div>
+        <div class="col-md-9 col-md-pull-9">col-md-9 col-md-pull-9</div>
+    </div>
+
+</body>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</html>
